@@ -1,0 +1,37 @@
+
+nav button{
+   color: #989898;
+    font-size: 0.85rem;
+    outline-style: hidden;
+    border: none;
+    border-width: 2;
+    line-height:3;
+    background-color: transparent;
+    padding: 0.325rem 0.5rem;
+
+
+}
+nav button:hover{
+    background-color: yellow;
+    color: #124af4;
+   
+}
+.content h1{
+    display: block;
+    font-size: 0.85rem;
+    text-decoration: solid;
+    text-transform: uppercase;
+    color: #ffab00;
+    margin-bottom: 25px;
+
+}
+.content{
+    display: block;
+    max-width: 750px;
+}
+span{
+    color: #124af4
+}
+.header-body{
+    background-color: white !important;
+}

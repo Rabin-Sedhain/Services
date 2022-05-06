@@ -1,0 +1,54 @@
+.desc1{
+    font-size: 0.9rem;
+    letter-spacing: 0.02rem;
+
+}
+.desc2{
+    font-size: 0.9rem;
+    letter-spacing: 0.02rem;
+    background-color: aliceblue;
+    height:22rem;
+    position: relative;
+
+    
+}
+.desc2 p{
+    position: absolute;
+    top: 2rem;
+}
+.content-div h1{
+    color: #333132;
+    font-size: 1.5rem;
+}
+body{
+    background-color: #f4f4f4 !important;
+}
+@media (max-width: 575.98px) { 
+
+ }
+
+@media (max-width: 767.98px) { 
+    .img-div{
+        margin-top: 3rem !important;
+        
+        
+    
+    }
+    .content-div{
+       margin-top: 7rem !important;
+       text-align: center;
+    
+    }
+ }
+
+@media (max-width: 991.98px) { 
+    
+}
+
+@media (max-width: 1199.98px) {
+    
+ }
+
+@media (max-width: 1399.98px) { 
+    
+}
