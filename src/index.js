@@ -1,15 +1,3 @@
-/**
- * @description      :
- * @author           : prith
- * @group            :
- * @created          : 05/05/2022 - 22:19:26
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 05/05/2022
- * - Author          : prith
- * - Modification    :
- **/
 
 import React from "react";
 import ReactDOM from "react-dom/client";

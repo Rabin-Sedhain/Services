@@ -1,15 +1,3 @@
-/**
- * @description      :
- * @author           : prith
- * @group            :
- * @created          : 05/05/2022 - 23:24:45
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 05/05/2022
- * - Author          : prith
- * - Modification    :
- **/
 import React from "react";
 import "./Header.css";
 
@@ -17,7 +5,7 @@ const Header = (props) => {
   const handleScroll = (id) =>{
     const docs=document.getElementById(id);
     docs.scrollIntoView({behavior:"smooth"});
-    
+
   } 
   return (
     <>

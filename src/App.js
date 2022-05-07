@@ -1,16 +1,3 @@
-/**
- * @description      :
- * @author           : prith
- * @group            :
- * @created          : 05/05/2022 - 22:19:29
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 05/05/2022
- * - Author          : prith
- * - Modification    :
- **/
-
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { getReduceFetch } from "./Reducer";
@@ -25,14 +12,14 @@ const App = () => {
   useEffect(() => {
     dispatch(getReduceFetch());
   }, [dispatch]);
-  console.log(data);
 
   return (
-    <div>
-    
-      <Header data={data} />
-      <Category data={data} />
-    </div>
+    <>
+    <Header data={data} />
+    <Category data={data} />
+    </>
+      
+   
   );
 };
 export default App;
