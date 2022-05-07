@@ -1,7 +1,11 @@
 
-nav{
+@media (max-width: 500px) { 
+    nav{
+        flex-direction: column;
+    }
     
-}
+    }
+
 nav button{
    color: #989898;
     font-size: 0.85rem;
@@ -37,4 +41,5 @@ span{
 }
 .header-body{
     background-color: white !important;
+
 }

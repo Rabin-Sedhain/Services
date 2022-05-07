@@ -14,6 +14,11 @@ import React from "react";
 import "./Header.css";
 
 const Header = (props) => {
+  const handleScroll = (id) =>{
+    const docs=document.getElementById(id);
+    docs.scrollIntoView({behavior:"smooth"});
+    
+  } 
   return (
     <>
       <div className="header-body container mt-5 mb-5">
@@ -31,9 +36,9 @@ const Header = (props) => {
         </p>
         </div>
         
-        <nav className="d-flex justify-content-around shadow p-3 mb-5 bg-body rounded list-wrap is-bg is-shadow is-flex mt-5">
-          {props.data.map((val) => {
-            return <button>{val.title}</button>;
+        <nav className="navbar d-flex justify-content-around shadow p-3 mb-5 bg-body rounded list-wrap is-bg is-shadow is-flex mt-5">
+          {props.data.map((val, i) => {
+            return <button onClick={(e) => handleScroll(val.id)} key={i} >{val.title}</button>;
           })}
         </nav>
         </div>

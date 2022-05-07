@@ -4,10 +4,10 @@
 
 }
 .desc2{
-    font-size: 0.9rem;
+    font-size:0.9rem;
     letter-spacing: 0.02rem;
     background-color: aliceblue;
-    height:22rem;
+    height:23rem;
     position: relative;
 
     
@@ -22,6 +22,7 @@
 }
 body{
     background-color: #f4f4f4 !important;
+   
 }
 @media (max-width: 575.98px) { 
 
@@ -46,6 +47,20 @@ body{
 }
 
 @media (max-width: 1199.98px) {
+    .img-div{
+        margin-top: 3rem !important;
+        max-width: 80%;
+        
+    
+    }
+    .content-div{
+       margin-top: 7rem !important;
+       max-width: 80%;
+
+      
+    
+    }
+
     
  }
 
