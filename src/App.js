@@ -11,30 +11,27 @@
  * - Modification    :
  **/
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { getReduceFetch } from "./Reducer";
 
 import Category from "./Components/Category";
 import Header from "./Components/Header";
 
 const App = () => {
-  const [data, setData] = useState([]);
+  const data = useSelector((state) => state.reduce.reduce);
+  const dispatch = useDispatch();
 
-  const getData = async () => {
-    const res = await fetch(
-      "https://admin.naxa.com.np/api/services"
-    );
-    const datas = await res.json();
-    setData(datas);
-  };
-  console.log(data);
   useEffect(() => {
-    getData();
-  }, []);
+    dispatch(getReduceFetch());
+  }, [dispatch]);
+  console.log(data);
+
   return (
     <div>
-    <Header data={data}/>
-      <Category data={data} />
     
+      <Header data={data} />
+      <Category data={data} />
     </div>
   );
 };

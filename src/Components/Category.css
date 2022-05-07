@@ -1,69 +1,46 @@
+.content-div{
+    padding: 1.5em;
+}
 .desc1{
+    color: #333132;
     font-size: 0.9rem;
     letter-spacing: 0.02rem;
 
 }
 .desc2{
+    color: #7c7c7c;
     font-size:0.9rem;
     letter-spacing: 0.02rem;
-    background-color: aliceblue;
-    height:23rem;
-    position: relative;
-
-    
-}
-.desc2 p{
-    position: absolute;
-    top: 2rem;
+    background-color: #e9ebff
 }
 .content-div h1{
     color: #333132;
     font-size: 1.5rem;
 }
 body{
-    background-color: #f4f4f4 !important;
+    background-color: #f4f4f4;
    
 }
-@media (max-width: 575.98px) { 
 
- }
 
-@media (max-width: 767.98px) { 
-    .img-div{
-        margin-top: 3rem !important;
-        
-        
-    
-    }
+
+@media screen and (max-width:990px) {
     .content-div{
-       margin-top: 7rem !important;
-       text-align: center;
-    
+        text-align: center;
+        
     }
- }
+    .content-div .desc1, .desc2{
+        text-align: center;
+    } 
 
-@media (max-width: 991.98px) { 
+
     
+
 }
 
-@media (max-width: 1199.98px) {
-    .img-div{
-        margin-top: 3rem !important;
-        max-width: 80%;
-        
-    
+@media screen and (min-width:990px) {
+    .service-reverse{
+        flex-direction:row-reverse;
     }
-    .content-div{
-       margin-top: 7rem !important;
-       max-width: 80%;
-
-      
-    
-    }
-
-    
- }
-
-@media (max-width: 1399.98px) { 
     
 }
