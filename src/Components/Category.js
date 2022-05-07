@@ -7,7 +7,7 @@ const Category = ({ data }) => {
   return (
     <>
     
-      <div className="mt-5 mb-4" style={{backgroundColor: "#f4f4f4"}}>
+      <div className="mb-4" style={{backgroundColor: "#f4f4f4"}}>
         <div className="container-xxl">
           {data.map((val, i) => {
              // const [photo, id, description1, description2, icon, title]= val;

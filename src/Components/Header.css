@@ -1,29 +1,28 @@
-
-@media (max-width: 500px) { 
-    nav{
+@media (max-width: 500px) {
+    nav {
         flex-direction: column;
     }
-    
-    }
 
-nav button{
-   color: #989898;
+}
+
+nav button {
+    color: #989898;
     font-size: 0.85rem;
     outline-style: hidden;
     border: none;
     border-width: 2;
-    line-height:3;
+    line-height: 3;
     background-color: transparent;
     padding: 0.325rem 0.5rem;
-
-
 }
-nav button:hover{
+
+nav button:hover {
     background-color: #ffee00;
     color: #124af4;
-   
+
 }
-.content h1{
+
+.content h1 {
     display: block;
     font-size: 0.85rem;
     text-decoration: solid;
@@ -32,14 +31,18 @@ nav button:hover{
     margin-bottom: 25px;
 
 }
-.content{
+
+.content {
     display: block;
     max-width: 750px;
 }
-span{
+
+span {
     color: #124af4
 }
-.header-body{
-    background-color: white !important;
 
+.header1 {
+
+    background-image: url("./../banner.jpg");
+    background-position: 100% !important;
 }
