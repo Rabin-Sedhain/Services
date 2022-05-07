@@ -1,27 +1,32 @@
-.content-div{
+.content-div {
     padding: 1.5em;
 }
-.desc1{
+
+.desc1 {
     color: #333132;
     font-size: 0.9rem;
     letter-spacing: 0.02rem;
 
 }
-.desc2{
+
+.desc2 {
     color: #7c7c7c;
-    font-size:0.9rem;
+    font-size: 0.9rem;
     letter-spacing: 0.02rem;
     background-color: #e9ebff
 }
-.content-div h1{
+
+.content-div h1 {
     color: #333132;
     font-size: 1.5rem;
 }
-body{
+
+body {
     background-color: white;
-   
+
 }
-.icon{
+
+.icon {
     width: 60px;
     height: auto;
 }
@@ -32,18 +37,20 @@ body{
 
 
 @media screen and (max-width:990px) {
-    .content-div{
+    .content-div {
         text-align: center;
-        
+
     }
-    .content-div .desc1, .desc2{
+
+    .content-div .desc1,
+    .desc2 {
         text-align: center;
-    } 
+    }
 }
 
 @media screen and (min-width:990px) {
-    .service-reverse{
-        flex-direction:row-reverse;
+    .service-reverse {
+        flex-direction: row-reverse;
     }
-    
+
 }

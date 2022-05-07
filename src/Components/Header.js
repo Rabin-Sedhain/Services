@@ -1,8 +1,9 @@
 import React from "react";
 import "./Header.css";
 
-
 const Header = (props) => {
+  //To show the props concept
+
   const handleScroll = (id) => {
     const docs = document.getElementById(id);
     docs.scrollIntoView({ behavior: "smooth" });
@@ -26,19 +27,16 @@ const Header = (props) => {
               </p>
             </div>
             <nav className="navbar d-flex justify-content-around shadow p-3 mb-5 bg-body rounded list-wrap is-bg is-shadow is-flex mt-5">
-        {props.data.map((val, i) => {
-          return (
-            <button onClick={(e) => handleScroll(val.id)} key={i}>
-              {val.title}
-            </button>
-          );
-        })}
-      </nav>
+              {props.data.map((val, i) => {
+                return (
+                  <button onClick={(e) => handleScroll(val.id)} key={i}>
+                    {val.title}
+                  </button>
+                );
+              })}
+            </nav>
           </div>
         </div>
-      
-
-      
       </header>
     </div>
   );

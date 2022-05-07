@@ -15,11 +15,11 @@ const App = () => {
 
   return (
     <>
-    <Header data={data} />
-    <Category data={data} />
+      {/* Use of prop/s / */}
+      <Header data={data} />
+      {/* Use of redux */}
+      <Category />
     </>
-      
-   
   );
 };
 export default App;
